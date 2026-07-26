@@ -395,7 +395,7 @@ header {
   background-color: #ffffff;
 }
 
-.bilibili-link {
+.social-link {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
@@ -403,7 +403,7 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.bilibili-link img {
+.social-link img {
   display: block;
   width: 100%;
   height: 100%;
