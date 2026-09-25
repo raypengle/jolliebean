@@ -102,6 +102,24 @@ header {
   margin: 0 auto;
 }
 
+.anniversary-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #f91960 0%, #ff9900 50%, #f91919 100%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+
+.anniversary-banner span {
+  font-size: 24px;
+}
+
 .announcement {
   padding: 0;
   text-align: center;
@@ -297,6 +315,16 @@ header {
 }
 
 @media (max-width: 640px) {
+  .anniversary-banner {
+    gap: 8px;
+    padding: 10px 14px;
+    font-size: 16px;
+  }
+
+  .anniversary-banner span {
+    font-size: 20px;
+  }
+
   .signup-card {
     padding: 24px;
   }
