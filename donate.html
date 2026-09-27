@@ -7,22 +7,59 @@
 <body>
   <script src="common-header.js"></script>
 
-  <div class="announcement">
-    <div id="announcementSlider">
-      <img src="bp1.jpg" alt="最新公告">
-      <img src="bp2.jpg" alt="最新公告">
-    </div>
-  </div>
-
   <div class="content">
     <style>
-      .content {
+      .donate-panel {
         text-align: center;
-        margin-top: 50px;
+      }
+      .thanks-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+      }
+      .thanks-table th,
+      .thanks-table td {
+        padding: 12px 10px;
+        border-bottom: 1px solid rgba(106, 77, 18, 0.18);
+      }
+      .thanks-table th {
+        color: #6a4d12;
+      }
+      .thanks-table tbody tr:last-child td {
+        border-bottom: 0;
       }
     </style>
-    <h3>正在施工中，敬请期待</h3>
+    <section class="content-inner donate-panel" aria-labelledby="donate-title">
+      <h3 id="donate-title">赞助欢乐豆工作室</h3>
+      <p>感谢你的支持！</p>
+      <div class="social-links">
+        <a class="social-link" href="https://ifdian.net/a/jbs-comics" target="_blank" rel="noopener noreferrer" aria-label="在爱发电支持欢乐豆工作室">
+          <img src="./images/aifadian.png" alt="">
+        </a>
+      </div>
+      <p>点击跳转至爱发电</p>
+    </section>
+    <section class="content-inner" aria-labelledby="thanks-title">
+      <h3 id="thanks-title">特别鸣谢</h3>
+      <table class="thanks-table">
+        <thead>
+          <tr>
+            <th scope="col">赞助者</th>
+            <th scope="col">赞助内容</th>
+            <th scope="col">金额</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>@婷婷zuky</td>
+            <td>B站推广金</td>
+            <td>50元</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </div>
   <script src="common-footer.js"></script>
 </body>
 </html>
+
