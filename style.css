@@ -103,17 +103,26 @@ header {
 }
 
 .anniversary-banner {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
   min-height: 56px;
   padding: 12px 20px;
-  background: linear-gradient(90deg, #f91960 0%, #ff9900 50%, #f91919 100%);
+  background: linear-gradient( #f91919 100%);
   color: #ffffff;
   text-align: center;
   font-size: 18px;
   letter-spacing: 0.02em;
+}
+
+.anniversary-video-link {
+  position: absolute;
+  right: 20px;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .anniversary-banner span {
@@ -244,6 +253,13 @@ header {
   box-shadow: 0 4px 10px rgba(143, 106, 20, 0.2);
 }
 
+.preorder-card .button {
+  min-width: 0;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 .content-inner button:hover,
 .signup-card .button:hover {
   background-color: #230f75;
@@ -317,8 +333,15 @@ header {
 @media (max-width: 640px) {
   .anniversary-banner {
     gap: 8px;
+    flex-wrap: wrap;
     padding: 10px 14px;
     font-size: 16px;
+  }
+
+  .anniversary-video-link {
+    position: static;
+    flex-basis: 100%;
+    text-align: center;
   }
 
   .anniversary-banner span {
@@ -336,6 +359,15 @@ header {
 
   .button {
     width: 100%;
+  }
+
+  .preorder-card .button-group {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .preorder-card .button {
+    width: auto;
   }
 }
 
