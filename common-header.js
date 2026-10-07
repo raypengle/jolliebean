@@ -12,7 +12,7 @@
   document.write('    <ul class="nav-links">');
   document.write('      <li><a href="index.html">主页</a></li>');
   document.write('      <li><a href="donate.html">赞助</a></li>');
-  document.write('      <li><a href="store.html">商城</a></li>');
+  document.write('      <li><a href="https://ifdian.net/a/jbs-comics?tab=shop">商城</a></li>');
   document.write('    </ul>');
   document.write('  </nav>');
   document.write('</header>');

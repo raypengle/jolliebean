@@ -11,6 +11,7 @@
     '    <a class="social-link social-link" aria-label="=trello" href="https://trello.com/b/p9yVa1Bg"><img src="./images/trello.webp" alt="trello"></a>',
     '    <a class="social-link social-link" aria-label="=trello" href="https://ifdian.net/a/jbs-comics"><img src="./images/aifadian.png" alt="aifadian"></a>',
     '  </div>',
+    '  <p class="footer-copyright">&copy; 2021-2026 <img class="footer-logo" src="./images/logo-zh.png" alt="欢乐豆工作室"></p>',
     '</div>'
   ].join('');
 
